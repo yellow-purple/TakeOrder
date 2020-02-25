@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TakeOrder</string>
+    <string name="tab_text_1">주문 받기</string>
+    <string name="tab_text_2">수량 확인</string>
+    <string name="confirm_button">주문 완료</string>
+    <string name="cancel_button">주문 취소</string>
+    <string name="complete_order_message">주문을 완료하시겠습니까?</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+
+    <string name="coffee_korea">커피</string>
+    <string name="coffee_english">Coffee</string>
+    <string name="blended_korea">블렌디드</string>
+    <string name="blended_english">Blended</string>
+    <string name="ade_korea">에이드</string>
+    <string name="ade_english">Ade</string>
+    <string name="tea_korea">티</string>
+    <string name="tea_english">Tea</string>
+
+    <string name="americano">아메리카노</string>
+    <string name="hazelnut_americano">헤이즐넛 아메리카노</string>
+    <string name="cafe_latte">카페라떼</string>
+    <string name="cappuccino">카푸치노</string>
+    <string name="caramel_macciatto">카라멜마끼아또</string>
+    <string name="cafe_mocha">카페모카</string>
+    <string name="hazelnut_latte">헤이즐넛 라떼</string>
+    <string name="vanilla_latte">바닐라 라떼</string>
+    <string name="chocolate_latte">초코 라떼</string>
+
+    <string name="caramel_pointccino">카라멜 포인트치노</string>
+    <string name="mocha_pointccino">모카 포인트치노</string>
+    <string name="yogurt_pointccino">요거트 포인트치노</string>
+    <string name="chocolate_pointccino">초코 포인트치노</string>
+
+    <string name="lemon_ade">레몬에이드</string>
+    <string name="citron_ade">유자에이드</string>
+    <string name="grapefruit_ade">자몽에이드</string>
+
+    <string name="earl_grey">얼그레이</string>
+    <string name="green_tea">녹차</string>
+    <string name="chamomile">캐모마일</string>
+    <string name="peppermint">페퍼민트</string>
+    <string name="citrus_tea">유자차</string>
+    <string name="lemon_tea">레몬차</string>
+    <string name="grapefruit_tea">자몽차</string>
+    <string name="ginger_with_jujube">생강 대추차</string>
+    <string name="flower_tea">꽃차</string>
+    <string name="milk_tea">밀크티</string>
+</resources>

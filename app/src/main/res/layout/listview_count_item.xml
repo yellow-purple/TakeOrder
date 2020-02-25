@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    style="@style/TitleTextView"
+    android:layout_height="30dp">
+
+    <TextView
+        android:id="@+id/drink"
+        style="@style/TitleTextView"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="25dp"
+        android:textSize="15sp"
+        android:text="drink"/>
+
+    <TextView
+        android:id="@+id/count"
+        style="@style/CountTextView"
+        android:textSize="15sp"
+        android:layout_marginRight="50dp"
+        android:text="count" />
+</LinearLayout>

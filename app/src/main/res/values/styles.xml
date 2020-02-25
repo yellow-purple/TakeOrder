@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#282C37</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextView" parent="android:Widget.TextView">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:background">@color/white2</item>
+    </style>
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MyLayout" parent="android:Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white2</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity"> center_vertical</item>
+    </style>
+
+    <style name="TitleTextView" parent="android:Widget.TextView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white2</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity"> center_vertical</item>
+
+    </style>
+
+    <style name="CountTextView" parent="android:Widget.TextView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:background">@color/white2</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/dark_black</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <style name="MyAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="toolbarStyle">@style/MyToolBarStyle</item>
+    </style>
+
+    <style name="MyToolBarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/dark_black</item>
+        <item name="titleTextAppearance">@style/MyTitleTextAppearance</item>
+    </style>
+
+    <style name="MyTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/white2</item>
+    </style>
+
+
+
+<!--    <style name="MyTabLayout" parent="Widget.Design.TabLayout">-->
+<!--        <item name=""-->
+<!--    </style>-->
+
+</resources>
